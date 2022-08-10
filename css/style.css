@@ -1,38 +1,67 @@
+/*GLOBAL*/
 *{
     margin: 0;
     padding:0;
+}
 
+h1, h2, h3 {
+    font-family: 'Roboto Serif', serif;
 }
 
 body {
     background-color: #FFEDD5;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
     list-style:  none;
 }
 
+/*HEADER*/
 header {
     padding: 32px 0 32px 0;
     text-align: center;
 }
 
+header h1 {
+    margin-bottom: 4px;
+}
+
+header span {
+    color: #995000;
+}
+
 header, section {
-    border: 1px solid;
     max-width: 300px;
     margin: 0 auto;
+}
+
+/*OUTROS ELEMENTOS*/
+section {
+    margin-bottom: 24px;
 }
 
 section h2 {
     background-color: #FED7AA;
     padding: 8px 16px 8px 16px;
     text-align: center;
-    border: 1px solid;
     margin-bottom: 24px;
 }
 
 li {
     margin-bottom: 16px;
+    display: flex;
 }
 
+.description {
+    font-size: 14px;
+}
+
+.detais h3 {
+    margin-bottom: 8px;
+    max-width: 240px;
+}
+
+.details h3{
+    margin-bottom: 8px;
+}
